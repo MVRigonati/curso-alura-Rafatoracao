@@ -1,0 +1,17 @@
+Extrair funções bem definidas para métodos privados.
+Se necessário, extrair essa função para outra classe.
+
+Mudar nome das variávies para algo bem descritivo.
+
+If e Else:
+	Encapsulamento de ifs.
+	(Uma maneira de eliminar ifs é utilizar Design Patterns como Strategy, State, Decorator, etc).
+
+Código duplicado: Utilize herança, composição, crie abstrações e faça uso de padrões de projeto.
+
+Parâmetros booleanos que mudam o comportamento do método são uma péssima ideia.
+Criar métodos diferentes para cada comportamento.
+Caso haja repetição no código, criar métodos privados para auxiliar.
+
+Não utilização de constantes direto no código.
+Extrair para uma constante ou utiliar classe ENUM.
